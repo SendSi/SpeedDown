@@ -23,6 +23,7 @@ public class PlayerCtrl : MonoBehaviour
     private void Update()
     {
         isOnGround = Physics2D.OverlapCircle(groundCheck.transform.position, checkRadius, platform);
+        anim.SetBool("isOnGround",isOnGround);
         Movement();
     }
 
@@ -41,5 +42,28 @@ public class PlayerCtrl : MonoBehaviour
     {
         Gizmos.color=Color.blue;
         Gizmos.DrawWireSphere(groundCheck.transform.position,checkRadius);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("TopDead"))
+        {
+        anim.SetTrigger("dead");
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Fan"))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 10f);
+        }
+    }
+
+    private bool playerDead = false;
+    public void PlayerDead()
+    {
+        playerDead = true;
+        Debug.LogError("死");
     }
 }

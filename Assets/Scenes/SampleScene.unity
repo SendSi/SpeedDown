@@ -137,9 +137,9 @@ GameObject:
   - component: {fileID: 78411185}
   - component: {fileID: 78411184}
   - component: {fileID: 78411183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle (5)
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -465,9 +465,9 @@ GameObject:
   - component: {fileID: 337909350}
   - component: {fileID: 337909349}
   - component: {fileID: 337909348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle (6)
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -986,9 +986,9 @@ GameObject:
   - component: {fileID: 654939561}
   - component: {fileID: 654939560}
   - component: {fileID: 654939559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle (4)
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1288,9 +1288,9 @@ GameObject:
   - component: {fileID: 748997908}
   - component: {fileID: 748997907}
   - component: {fileID: 748997906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle (2)
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1497,9 +1497,9 @@ GameObject:
   - component: {fileID: 960610700}
   - component: {fileID: 960610701}
   - component: {fileID: 960610702}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: base3
-  m_TagString: Untagged
+  m_TagString: Fan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1586,7 +1586,7 @@ Transform:
   m_GameObject: {fileID: 960610696}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0.97, z: 0}
+  m_LocalPosition: {x: 1.06, y: -3.07, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1829,9 +1829,9 @@ GameObject:
   - component: {fileID: 1257871741}
   - component: {fileID: 1257871740}
   - component: {fileID: 1257871739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle (3)
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2170,9 +2170,9 @@ GameObject:
   - component: {fileID: 1615549807}
   - component: {fileID: 1615549806}
   - component: {fileID: 1615549805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle (1)
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2467,7 +2467,7 @@ Transform:
   m_GameObject: {fileID: 1635218768}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24, y: 0.96, z: 0}
+  m_LocalPosition: {x: -0.24, y: -3.73, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2591,9 +2591,9 @@ GameObject:
   - component: {fileID: 1886407754}
   - component: {fileID: 1886407753}
   - component: {fileID: 1886407752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle
-  m_TagString: Untagged
+  m_TagString: TopDead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
